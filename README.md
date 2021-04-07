@@ -9,7 +9,7 @@ This relies on [ipify.org](https://www.ipify.org/)'s API to get the public IP of
 ## Environment variables
 - `CF_token`: Cloudflare API Token
 - `Domain`: Domain name to use
-- `Hostname`: Subdomain of the Domain above to set the record
+- `Subdomain`: Subdomain of the Domain above to set the record
 - `CF_proxy_disabled`: If set this will disable the proxy feature of the Cloudflare. **Enabled by default**
 
 ```bash
