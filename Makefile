@@ -1,4 +1,4 @@
-BINARY = DynDNS
+BINARY = dyndns
 GOARCH = amd64
 
 VERSION?=latest
@@ -44,7 +44,6 @@ build:
 	GOOS=darwin GOARCH=${GOARCH} go build ${LDFLAGS} -o ${BIN_DIR}/${BINARY} .
 
 package:
-	@cp -r resources/ ${BIN_DIR}/${BINARY}-linux-${GOARCH}/${VERSION}/${BINARY}/
 	@mkdir -p ${BIN_DIR}/${VERSION}/
 	@tar -cvjf ${BIN_DIR}/${VERSION}/${BINARY}-linux-${GOARCH}.tar -C ${BIN_DIR}/${BINARY}-linux-${GOARCH}/${VERSION}/ .
 
