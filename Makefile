@@ -4,7 +4,7 @@ GOARCH = amd64
 VERSION?=latest
 
 # Symlink into GOPATH
-GITHUB_USERNAME=praveenprem
+GITHUB_USERNAME=razorcorp
 BUILD_DIR=${GOPATH}/src/github.com/${GITHUB_USERNAME}/${BINARY}
 BIN_DIR=${BUILD_DIR}/bin
 CURRENT_DIR=\$(shell pwd)

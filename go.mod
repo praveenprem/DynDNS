@@ -1,3 +1,3 @@
-module github.com/praveenprem/dyndns
+module github.com/razorcorp/dyndns
 
 go 1.14

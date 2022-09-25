@@ -5,7 +5,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/praveenprem/dyndns/cloudflare"
+	"github.com/razorcorp/dyndns/cloudflare"
 	"log"
 	"net/http"
 	"os"
